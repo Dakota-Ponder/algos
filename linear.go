@@ -1,9 +1,9 @@
 package main
 
-func LinearSearch(arr [5]int, val int) int {
-	for i := 0; i < len(arr); i++{
-		if arr[i] == val{
-			return i
+func LinearSearch(slice []int, target int) int {
+	for index, value := range slice{
+		if value == target {
+			return index
 		}
 	}
 	return -1
