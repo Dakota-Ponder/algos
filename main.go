@@ -1,10 +1,10 @@
 package main
 import "fmt"
 func main(){
-	arr := [5]int{10,20,30,40,50}
-	val := 50
+	arr := []int{10,20,30,40,50,60,70,80,90,99,100}
+	val := 60
 
-	found := LinearSearch(arr, val)
+	found := BinarySearch(arr, val)
 
 	fmt.Println("Found at position", found)
 }
