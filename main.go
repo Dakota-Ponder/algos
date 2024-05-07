@@ -1,13 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	arr := []int{10, 20, 30, 40, 50, 60, 70, 80, 90, 99, 100}
-	// val := 60
 
-	// found := BinarySearch(arr, val)
-	reverse := ReverseList(arr)
+	word := "123hello321"
+	rev := ReverseLetters(word)
 
-	fmt.Println(reverse)
+	fmt.Println(rev)
+
 }
