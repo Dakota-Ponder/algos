@@ -5,10 +5,5 @@ import (
 )
 
 func main() {
-
-	word := "123hello321"
-	rev := ReverseLetters(word)
-
-	fmt.Println(rev)
-
+	fmt.Println(Encode("scout", 1939))
 }
