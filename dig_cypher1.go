@@ -17,12 +17,14 @@ func Encode(str string, key int) []int {
 		keyDigits[i], _ = strconv.Atoi(string(char))
 	}
 
-	// return the encoded array of ints
+	// create a slice to hold the final encoded numbers
+	// len of the slice is the same as the len of the input string
 	encoded := make([]int, len(str))
 
 	// loop through the string and its digits
 	for i, char := range str {
-		letterNum := letterToNumber(char)
+		letterNum := letterToNumber(char) // convert char to its number
+		// get the appropriate key digit, use modulo to loop over keyDigits repeatedly
 		keyNum := keyDigits[i%len(keyDigits)]
 		encoded[i] = letterNum + keyNum
 	}
