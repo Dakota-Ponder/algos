@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println(Encode("scout", 1939))
+	fmt.Println(SumEvenFibonacci(100))
 }
