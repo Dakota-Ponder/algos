@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println(SumEvenFibonacci(100))
+	fmt.Println(Solve("abcd"))
 }

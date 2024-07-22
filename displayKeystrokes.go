@@ -1,5 +1,6 @@
 package main
 
+// need to refactor the map to make using strings package and contains
 func MobileKeyboard(str string) int {
 	keystroke := map[rune]int{
 		'1': 1,
