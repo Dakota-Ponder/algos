@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println(Solve("abd"))
+	binaryStr := "10"
+    decimal := BinToDec(binaryStr)
+    fmt.Printf("The decimal representation of %s is %d\n", binaryStr, decimal)
 }
