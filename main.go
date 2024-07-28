@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	binaryStr := "10"
-    decimal := BinToDec(binaryStr)
-    fmt.Printf("The decimal representation of %s is %d\n", binaryStr, decimal)
+	word := "cabbage"  // should return 14 
+	score := ScrabbleScore(word)
+    fmt.Println(score)
 }
