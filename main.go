@@ -5,8 +5,7 @@ import (
 )
 
 func main() {
-	var base = 6
-	var factor = 2
+	s := "country"
 
-    fmt.Println(IsFactor(base, factor))
+    fmt.Println(RemoveChar(s))
 }
