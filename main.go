@@ -5,7 +5,8 @@ import (
 )
 
 func main() {
-	word := "cabbage"  // should return 14 
-	score := ScrabbleScore(word)
-    fmt.Println(score)
+	var base = 6
+	var factor = 2
+
+    fmt.Println(IsFactor(base, factor))
 }
