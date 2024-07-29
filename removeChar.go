@@ -17,3 +17,6 @@ func RemoveChar(word string) string {
   } 
   return st
 }
+
+// a better way would be to just 
+// return word[1:len(word) - 1]
