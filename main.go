@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	s := "country"
+	
 
-    fmt.Println(RemoveChar(s))
+    fmt.Println(FindMultiples(2,6))
 }
