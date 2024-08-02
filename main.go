@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	
+	str := "Lets go to the movies"
 
-    fmt.Println(FindMultiples(2,6))
+    fmt.Println(Vaporcode(str))
 }
