@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-    fmt.Println(SolveGCD(12,4))
+    fmt.Println(HoopCount(7))
 }
