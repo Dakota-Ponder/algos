@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-    fmt.Println(HoopCount(7))
+    fmt.Println(CalculateYears(10))
 }
